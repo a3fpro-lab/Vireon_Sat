@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vireon-sat"
+version = "0.1.0"
+description = "VIREON-SAT: TRP collapse heuristic for 3-SAT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.scripts]
+vireon-demo = "scripts.demo_random:demo"
